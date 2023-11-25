@@ -30,16 +30,18 @@ h3 {
 h4 {
   color: #ef9595;
   text-align: center;
+  margin: 20px;
 }
 nav img {
-  width: 70px;
+  width: 90px;
+  margin: 20px;
 }
 .hero {
   margin: 40px 0;
 }
 .hero img {
-  width: 100px;
-  border-radius: 50px;
+  width: 150px;
+  border-radius: 70px;
   display: block;
   margin: 0 auto;
 }
@@ -54,11 +56,31 @@ nav img {
   padding: 10px;
   line-height: 30px;
 }
+.section {
+  margin: 100px 0;
+}
 .section img {
   width: 200px;
   border-radius: 100px;
   display: block;
   margin: 0 auto;
+}
+.free-call {
+  text-align: center;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #ef9595;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin: 5px 120px;
+  padding: 10px 20px;
+}
+.free-call a {
+  text-decoration: none;
+  color: #90667b;
+}
+.free-call a:hover {
+  color: #d88ab1;
 }
 .pink-panel {
   background-color: rgb(239, 149, 149, 0.6);
