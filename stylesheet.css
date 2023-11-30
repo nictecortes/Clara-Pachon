@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Mulish:wght@200;300;500&family=Raleway:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -220,10 +221,19 @@ footer {
   h2 {
     font-size: 1.5vw;
   }
+  h3,
+  h4 {
+    font-family: "PT Serif", serif;
+    font-size: 40px;
+    color: #d98482;
+    font-weight: 400;
+    margin-bottom: 45px;
+  }
   .hero {
     display: flex;
     flex-direction: row-reverse;
     width: 85%;
+    margin-top: 70px;
   }
   .hero img {
     width: 200px;
@@ -250,8 +260,8 @@ footer {
     font-size: 1.3vw;
     border: 0.5px;
     border-style: solid;
-    border-color: #ef9595;
-    background-color: #ef9595;
+    border-color: #ba22ce;
+    background-color: #ba22ce;
     border-radius: 20px;
     margin: 8px auto;
     margin-bottom: 0;
@@ -263,6 +273,7 @@ footer {
     text-align: center;
   }
   .free-call-big-screen:hover {
+    background-color: #a112b4;
     box-shadow: 10px 10px 41px -10px rgba(0, 0, 0, 0.34);
   }
   .section-text {
@@ -280,6 +291,33 @@ footer {
     width: 30%;
     border-radius: 70px;
   }
+  .wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper img {
+    margin: 0 50px;
+  }
+  .pink-white-text-wrapper {
+    width: 40%;
+  }
+  .white-panel {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .pink-panel {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .reversed {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
   footer {
     background-image: url(./imgs/background-footer-long.jpg);
     background-position: center;
