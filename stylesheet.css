@@ -55,6 +55,7 @@ nav img {
 }
 .hero-text {
   background-color: rgb(255, 255, 255, 0.5);
+  box-shadow: 10px 10px 41px -10px rgba(0, 0, 0, 0.34);
   color: #90667b;
   margin: 5% 20%;
   text-align: center;
@@ -78,18 +79,19 @@ nav img {
   border: 0.5px;
   border-style: solid;
   border-color: #ef9595;
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: #ffb5b5;
   border-radius: 20px;
   margin: 5px 120px;
   padding: 10px 20px;
 }
 .free-call a {
   text-decoration: none;
-  color: #90667b;
+  color: #ffffff;
 }
 .free-call a:hover {
   color: #d88ab1;
 }
+
 .free-call-big-screen {
   display: none;
 }
@@ -245,22 +247,31 @@ footer {
     display: block;
     width: 60%;
     text-align: center;
+    font-size: 1.3vw;
     border: 0.5px;
     border-style: solid;
     border-color: #ef9595;
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: #ef9595;
     border-radius: 20px;
-    margin: 5px auto;
+    margin: 8px auto;
+    margin-bottom: 0;
+    padding: 5px 0;
   }
   .free-call-big-screen a {
     text-decoration: none;
-    color: #90667b;
+    color: #ffffff;
     text-align: center;
+  }
+  .free-call-big-screen:hover {
+    box-shadow: 10px 10px 41px -10px rgba(0, 0, 0, 0.34);
   }
   .section-text {
     width: 90%;
     display: flex;
     margin: 50px 0;
+  }
+  .hero-text {
+    padding: 20px;
   }
   .text-adjust {
     width: 40%;
