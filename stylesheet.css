@@ -41,10 +41,24 @@ h4 {
   margin: 20px;
   font-size: 25px;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
 nav img {
   width: 90px;
   margin: 20px;
 }
+.language {
+  align-self: center;
+  margin-right: 20px;
+}
+.language a {
+  text-decoration: none;
+  color: #ba22ce;
+}
+
 .hero {
   margin: 40px 0;
 }
@@ -313,6 +327,10 @@ footer {
   }
   h2 {
     font-size: 1.5vw;
+  }
+  .language {
+    align-self: center;
+    margin-right: 100px;
   }
   .hero-text p {
     font-size: 21px;
