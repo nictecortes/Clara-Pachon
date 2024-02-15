@@ -55,10 +55,13 @@ nav img {
   margin-right: 20px;
 }
 .language a {
+  font-size: 25px;
   text-decoration: none;
   color: #ba22ce;
 }
-
+.language a:hover {
+  color: #6051a7;
+}
 .hero {
   margin: 40px 0;
 }
@@ -328,6 +331,15 @@ footer {
   h2 {
     font-size: 1.5vw;
   }
+  h3 {
+    font-size: 70px;
+  }
+  nav {
+    margin: 60px;
+  }
+  nav img {
+    width: 140px;
+  }
   .language {
     align-self: center;
     margin-right: 100px;
@@ -339,6 +351,9 @@ footer {
     display: block;
     width: 60%;
   }
+  .free-call-big-screen a {
+    font-size: 20px;
+  }
   .section img {
     width: 30%;
     border-radius: 70px;
@@ -349,5 +364,11 @@ footer {
   }
   .wrapper img {
     margin: 0 50px;
+  }
+  .contact {
+    font-size: 30px;
+  }
+  .icons img {
+    width: 70px;
   }
 }
